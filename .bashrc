@@ -121,5 +121,5 @@ if command -v tmux>/dev/null; then
   [[ ! $TERM =~ screen ]] && [ -z $TMUX ] && exec tmux
 fi
 
-# GPG key for work
-export GPGKEY="vincente.nguyen@seebyte-inc.com"
+
+
